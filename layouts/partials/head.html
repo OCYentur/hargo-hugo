@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
 
-  {{ with site.Params.snipcartApiKey }}
+  {{ with site.Params.snipcart.snipcartApiKey }}
   {{ "<!-- Snipcart -->" | safeHTML }}
   <link rel="preconnect" href="https://app.snipcart.com/">
   <link rel="preconnect" href="https://cdn.snipcart.com/">
